@@ -3,21 +3,26 @@ body {
   padding: 0;
   background: #ccc;
 }
+/* Áp dụng cho phần tử <ul> trong phần tử <nav> có id "topmenu" */
 nav#topmenu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background-color: #444;
-  text-align: center;
+  list-style: none; /* Loại bỏ dấu chấm mặc định của danh sách */
+  padding: 0; /* Loại bỏ khoảng cách đệm bên trong phần tử <ul> */
+  margin: 0; /* Loại bỏ khoảng cách ngoài phần tử <ul> */
+  background-color: #444; /* Thiết lập màu nền cho <ul> là xám đậm */
+  text-align: center; /* Căn giữa các mục danh sách (<li>) bên trong <ul> */
 }
+
+/* Áp dụng cho phần tử <li> trong phần tử <ul> của <nav> có id "topmenu" */
 nav#topmenu li {
-  display: inline-block;
-  font-size: 24px;
-  line-height: 5px;
-  height: 5px;
-  padding: 40px;
+  display: inline-block; /* Hiển thị các phần tử <li> theo kiểu block nội tuyến, giúp chúng sắp xếp ngang */
+  font-size: 24px; /* Thiết lập kích thước chữ của các mục danh sách là 24px */
+  line-height: 5px; /* Thiết lập chiều cao dòng (khoảng cách giữa các dòng văn bản) là 5px */
+  height: 5px; /* Thiết lập chiều cao của mỗi mục danh sách là 5px (có thể gây ra giao diện không hợp lý vì quá nhỏ) */
+  padding: 40px; /* Cung cấp một khoảng đệm 40px xung quanh mỗi mục danh sách */
 }
+
+/* Áp dụng cho các thẻ <a> trong phần tử <ul> của <nav> có id "topmenu" */
 nav#topmenu a {
-  text-decoration: none;
-  color: #fff;
+  text-decoration: none; /* Loại bỏ gạch chân mặc định của các liên kết */
+  color: #fff; /* Thiết lập màu chữ của liên kết là trắng */
 }

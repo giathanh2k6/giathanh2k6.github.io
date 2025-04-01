@@ -1,92 +1,92 @@
 @import url("https://fonts.googleapis.com/css?family=Indie+Flower");
 /* Also import 'Roboto' font */
 body {
-  font-family: Roboto, sans-serif;
-  background: #e2d7aa;
-  color: #000000;
-  font-size: 16px;
-  width: 1180px;
-  line-height: 24px;
-  margin: 0 auto;
+  font-family: Roboto, sans-serif; /* Thiết lập font chữ của trang là Roboto, nếu không có thì sử dụng sans-serif */
+  background: #e2d7aa; /* Màu nền của trang là màu be nhạt */
+  color: #000000; /* Màu chữ là màu đen */
+  font-size: 16px; /* Kích thước font chữ là 16px */
+  width: 1180px; /* Chiều rộng của phần nội dung trang là 1180px */
+  line-height: 24px; /* Chiều cao dòng là 24px, giúp văn bản dễ đọc hơn */
+  margin: 0 auto; /* Căn giữa phần nội dung trang theo chiều ngang */
 }
 body > div.img-container > img {
-  width: 1100px;
-  height: 450px;
+  width: 1100px; /* Chiều rộng của ảnh trong container là 1100px */
+  height: 450px; /* Chiều cao của ảnh là 450px */
 }
 body > div.img-container {
-  width: 1600px;
-  height: 450px;
-  margin-top: 65px;
+  width: 1600px; /* Chiều rộng của container chứa ảnh là 1600px */
+  height: 450px; /* Chiều cao của container chứa ảnh là 450px */
+  margin-top: 65px; /* Thêm khoảng cách trên container ảnh */
 }
 h1 {
-  font-size: 60px;
-  font-family: "IndieFlower", cursive;
-  letter-spacing: 5px;
-  text-align: center;
-  margin-top: 65px;
+  font-size: 60px; /* Kích thước font chữ là 60px */
+  font-family: "IndieFlower", cursive; /* Sử dụng font "IndieFlower" hoặc cursive nếu không có */
+  letter-spacing: 5px; /* Thêm khoảng cách giữa các chữ cái */
+  text-align: center; /* Căn giữa tiêu đề theo chiều ngang */
+  margin-top: 65px; /* Thêm khoảng cách trên tiêu đề */
 }
 a {
-  text-decoration: none;
+  text-decoration: none; /* Loại bỏ gạch chân khỏi các liên kết */
 }
 nav {
-  margin: 30px;
-  text-align: center;
+  margin: 30px; /* Thêm khoảng cách xung quanh thanh điều hướng */
+  text-align: center; /* Căn giữa các mục trong thanh điều hướng */
 }
 nav a {
-  text-decoration: none;
-  font-size: 28px;
-  color: #000000;
+  text-decoration: none; /* Loại bỏ gạch chân của các liên kết trong thanh điều hướng */
+  font-size: 28px; /* Kích thước font chữ là 28px */
+  color: #000000; /* Màu chữ của các liên kết là màu đen */
 }
 nav ul li {
-  list-style: none;
-  display: inline;
-  padding: 0 12px 0 12px;
+  list-style: none; /* Loại bỏ dấu chấm đầu dòng trong các mục của thanh điều hướng */
+  display: inline; /* Hiển thị các mục liên kết theo hàng ngang */
+  padding: 0 12px; /* Thêm padding bên trái và bên phải cho các mục */
 }
 nav ul li:first-of-type a,
 nav ul li:last-of-type a {
-  padding-left: 0;
-  color: #0a2d4a;
-  font-weight: bold;
+  padding-left: 0; /* Loại bỏ padding trái cho mục đầu tiên */
+  color: #0a2d4a; /* Màu chữ của liên kết đầu tiên và cuối cùng là màu xanh đậm */
+  font-weight: bold; /* Đặt font chữ của liên kết đầu tiên và cuối cùng thành đậm */
 }
 article {
-  width: 370px;
-  display: inline-block;
+  width: 370px; /* Chiều rộng của mỗi bài viết là 370px */
+  display: inline-block; /* Các bài viết sẽ hiển thị theo dạng khối ngang */
 }
 main {
-  margin-top: 30px;
+  margin-top: 30px; /* Thêm khoảng cách trên phần chính của trang */
 }
 main > article img {
-  width: 350px;
-  height: 200px;
-  margin-bottom: 20px;
+  width: 350px; /* Chiều rộng của hình ảnh trong bài viết là 350px */
+  height: 200px; /* Chiều cao của hình ảnh trong bài viết là 200px */
+  margin-bottom: 20px; /* Thêm khoảng cách dưới hình ảnh trong bài viết */
 }
 p {
-  width: 345px;
-  text-align: justify;
-  margin-bottom: 20px;
+  width: 345px; /* Chiều rộng của các đoạn văn là 345px */
+  text-align: justify; /* Căn đều các đoạn văn */
+  margin-bottom: 20px; /* Thêm khoảng cách dưới mỗi đoạn văn */
 }
 article img + p:first-letter {
-  font-family: EucrosiaUPC sans-serif;
-  text-transform: uppercase;
-  font-size: 40px;
+  font-family: EucrosiaUPC sans-serif; /* Sử dụng font chữ EucrosiaUPC cho chữ cái đầu tiên */
+  text-transform: uppercase; /* Chuyển chữ cái đầu tiên thành chữ hoa */
+  font-size: 40px; /* Kích thước font chữ của chữ cái đầu tiên là 40px */
 }
 .readmore a,
 .comments a {
-  background: url(../Ex2/img/bg2.jpg);
-  color: #ffffff;
-  padding: 10px;
-  margin-top: 10px;
-  text-transform: uppercase;
+  background: url(../Ex2/img/bg2.jpg); /* Thiết lập ảnh nền cho các liên kết này */
+  color: #ffffff; /* Màu chữ là trắng */
+  padding: 10px; /* Thêm padding xung quanh các liên kết */
+  margin-top: 10px; /* Thêm khoảng cách phía trên các liên kết */
+  text-transform: uppercase; /* Chuyển chữ trong liên kết thành chữ hoa */
 }
 footer {
-  margin: 0;
-  padding: 10px 0 10px 0;
-  text-align: center;
+  margin: 0; /* Loại bỏ margin khỏi phần chân trang */
+  padding: 10px 0; /* Thêm padding trên và dưới phần chân trang */
+  text-align: center; /* Căn giữa nội dung trong chân trang */
 }
 article p:last-of-type span:first-of-type a::before {
-  content: url("../Ex2/img/comment.png");
-  position: relative;
-  padding: 10px;
-  right: 5px;
-  top: 7px;
+  content: url("../Ex2/img/comment.png"); /* Thêm ảnh bình luận trước liên kết */
+  position: relative; /* Đặt vị trí của ảnh bình luận theo vị trí tương đối */
+  padding: 10px; /* Thêm padding quanh ảnh bình luận */
+  right: 5px; /* Đẩy ảnh bình luận sang bên phải một chút */
+  top: 7px; /* Đẩy ảnh bình luận lên một chút */
 }
